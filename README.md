@@ -77,9 +77,7 @@ This way we have achieved one of the goals of the run - the same code in the sve
 
 ## Notices
 
-Not every Svelte 3/4 code will work in Pelte. Pelte code, it's not exactly Svelte 3/4 code because it uses signals.Notes
-
-Not every Svelte 3/4 code will work in Pelte. Pelte code, is not exactly Svelte 3/4 code, because it uses signals.
+Not every Svelte 3/4 code will work in Pelte. Pelte code, it's not exactly Svelte 3/4 code because it uses signals.
 
 ## Summary
 
