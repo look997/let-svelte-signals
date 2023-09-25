@@ -68,7 +68,7 @@ Every other function works like a simple js/ts function. Reactivity only applies
 
 A small discussion developed under the post, in which all doubts were dispelled:
 
-1. "I don't like comments as syntax". - You can use $conter, for example, to mark such functions. This is a contractual issue.
+1. "I don't like comments as syntax". - You can use `export function $counter ()`, for example, to mark such functions. This is a contractual issue.
 2. "Runes can be used at the top level of the module". - if it's really useful, you need to give the option to mark the top level of the module as reactive. Of course, functions in a module remain simple functions until you also mark it as reactive - this is along the lines of marking functions as `async` or generators. You can nest reactive functions in the same way. You can do exactly the same thing with reactive functions as with runes!
 3. "Lack of non-reactive variables will result in unintended behavior of effects and derivatives. It will be difficult to keep track of what is happening and why." - No. If you don't mark the function as reactive, it is exactly a simple function. Nothing bad can happen.
 
