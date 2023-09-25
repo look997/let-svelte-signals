@@ -81,7 +81,7 @@ Not every Svelte 3/4 code will work in Pelte. Pelte code, it's not exactly Svelt
 
 ## Summary
 
-I am afraid that there is no option to withdraw from the run. That there is no way to preserve the power of let $:. Rich's authoritarianism is too strong, the marketing around Svelte 5 was too much.
+I am afraid that there is no option to withdraw from the run. That there is no way to preserve the power of let $:. Rich's authority is too strong, the marketing around Svelte 5 was too much.
 That being said, I write this blog post in hopelessness. I don't believe anything can be done yet, even though Svelte 5 doesn't really even exist yet.
 
 I don't want to lose SvelteKit, I don't want to lose Svelte, I don't want to use another framework.
