@@ -1,6 +1,7 @@
 # Signals + let $: = love
 
-Chcę przekonać cię, że połączenie sygnałów ze Svelte 5 i składni reaktywnej `let` `$:` to najlepsze połączenie. I że jest jeszcze szansa uratować tę składnię bez żadnych strat.
+Chcę przekonać cię, że połączenie sygnałów ze Svelte 5 i składni reaktywnej `let` `$:` to najlepsze połączenie. I że jest jeszcze szansa uratować tę składnię bez żadnych strat.  
+Although I know it will only be banging my head against the wall.
 
 Ja osobiście byłem bardzo zahajpowany zapowiedziami Svelte 5. Dosłownie kocham Svelte a Rich Harris stał się dla mnie bogiem, gdy dowiedziałem się że jest autorem Svelte.  
 Jednak prezentacja Svelte 5 spowodowała mieszane uczucia.

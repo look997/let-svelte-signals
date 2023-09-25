@@ -1,6 +1,7 @@
 # Signals + let $: = love
 
-I want to convince you that the combination of signals from Svelte 5 and the reactive syntax `let` `$:` is the best combination. And that there is still a chance to save this syntax without any loss.
+I want to convince you that the combination of signals from Svelte 5 and the reactive syntax `let` `$:` is the best combination. And that there is still a chance to save this syntax without any loss.  
+Although I know it will only be banging my head against the wall.
 
 I personally was very jazzed about the Svelte 5 announcements. I literally love Svelte and Rich Harris became a god to me when I found out that he was the author of Svelte.  
 However, the presentation of Svelte 5 caused mixed feelings.
