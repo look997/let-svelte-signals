@@ -99,3 +99,32 @@ W tym sensie piszę ten wpis w beznadziei. Nie wierzę, że da się coś jeszcz
 Nie chcę tracić SvelteKit, nie chcę tracić Svelte, nie chcę używać innego frameworka.
 
 Zawsze można powiedzieć "wystarczy że Pelte naprawdę powstanie", ale to jest marne pocieszenie. Ciężko mi jest zaakceptować obecny stan.
+
+## Porównania
+
+### Reaktywny const object
+
+| ![Obrazek 1](const_ob_svelte4.png) | ![Obrazek 2](const_ob_svelte5.png) | ![Obrazek 2](const_ob_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| możliwy | możliwy | używamy let |
+
+### Reaktywna właściwość obiektu
+
+| ![Obrazek 1](const_ob_svelte4.png) | ![Obrazek 2](prop_svelte5.png) | ![Obrazek 2](prop_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| reaktywny cały | możliwy | możliwy |
+
+### derived
+
+| ![Obrazek 1](derived_svelte4.png) | ![Obrazek 2](derived_svelte5.png) | ![Obrazek 2](derived_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| możliwy | możliwy | możliwy<sup>[1]</sup> |
+
+---
+
+### Przypisy
+
+[1]: Osobny pusty let, ze względu na uproszczenie kompilacji bardziej złożonych przypisań, kompatybilność z plikami js/ts i kompatybilność ze Svelte 7 (które nie obsłuży innego rozwiązania nawet w pliku svelte).

@@ -99,3 +99,32 @@ That being said, I write this blog post in hopelessness. I don't believe anythin
 I don't want to lose SvelteKit, I don't want to lose Svelte, I don't want to use another framework.
 
 One can always say "it's enough that Pelte will really come into being," but that is poor consolation. I find it hard to accept the current state.
+
+## Comparisons
+
+### Reactive const object
+
+| ![Image 1](const_ob_svelte4.png) | ![Image 2](const_ob_svelte5.png) | ![Image 2](const_ob_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| possible | possible | we use let |
+
+### Reactive property of the object
+
+| ![Image 1](const_ob_svelte4.png) | ![Image 2](prop_svelte5.png) | ![Image 2](prop_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| reactive whole ob | possible | possible |
+
+### Derived
+
+| ![Image 1](derived_svelte4.png) | ![Image 2](derived_svelte5.png) | ![Image 2](derived_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| possible | possible | possible<sup>[1]</sup> |
+
+---
+
+### Footnotes
+
+[1]: Separate empty let, due to simplification of compilation of more complex assignments, compatibility with js/ts files and compatibility with Svelte 7 (which will not support another solution even in the svelte file).
