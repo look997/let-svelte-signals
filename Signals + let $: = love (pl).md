@@ -102,6 +102,21 @@ Zawsze można powiedzieć "wystarczy że Pelte naprawdę powstanie", ale to jes
 
 ## Porównania
 
+### Zmienna
+
+| ![Obrazek 1](variable_svelte4.png) | ![Obrazek 2](variable_svelte5.png) | ![Obrazek 2](variable_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| możliwy | możliwy | możliwy |
+
+
+### Derived
+
+| ![Obrazek 1](derived_svelte4.png) | ![Obrazek 2](derived_svelte5.png) | ![Obrazek 2](derived_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| możliwy | możliwy | możliwy<sup>[1]</sup> |
+
 ### Reaktywny const object
 
 | ![Obrazek 1](const_ob_svelte4.png) | ![Obrazek 2](const_ob_svelte5.png) | ![Obrazek 2](const_ob_pelte.png) |
@@ -115,13 +130,6 @@ Zawsze można powiedzieć "wystarczy że Pelte naprawdę powstanie", ale to jes
 |:---------------------------:|:---------------------------:|:---------------------------:|
 | Svelte 4 | Svelte 5 | Pelte |
 | reaktywny cały | możliwy | możliwy |
-
-### derived
-
-| ![Obrazek 1](derived_svelte4.png) | ![Obrazek 2](derived_svelte5.png) | ![Obrazek 2](derived_pelte.png) |
-|:---------------------------:|:---------------------------:|:---------------------------:|
-| Svelte 4 | Svelte 5 | Pelte |
-| możliwy | możliwy | możliwy<sup>[1]</sup> |
 
 ---
 

@@ -102,6 +102,21 @@ One can always say "it's enough that Pelte will really come into being," but tha
 
 ## Comparisons
 
+### Variable
+
+| ![Image 1](variable_svelte4.png) | ![Image 2](variable_svelte5.png) | ![Image 2](variable_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| possible | possible | possible |
+
+
+### Derived
+
+| ![Image 1](derived_svelte4.png) | ![Image 2](derived_svelte5.png) | ![Image 2](derived_pelte.png) |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| Svelte 4 | Svelte 5 | Pelte |
+| possible | possible | possible<sup>[1]</sup> |
+
 ### Reactive const object
 
 | ![Image 1](const_ob_svelte4.png) | ![Image 2](const_ob_svelte5.png) | ![Image 2](const_ob_pelte.png) |
@@ -115,13 +130,6 @@ One can always say "it's enough that Pelte will really come into being," but tha
 |:---------------------------:|:---------------------------:|:---------------------------:|
 | Svelte 4 | Svelte 5 | Pelte |
 | reactive whole ob | possible | possible |
-
-### Derived
-
-| ![Image 1](derived_svelte4.png) | ![Image 2](derived_svelte5.png) | ![Image 2](derived_pelte.png) |
-|:---------------------------:|:---------------------------:|:---------------------------:|
-| Svelte 4 | Svelte 5 | Pelte |
-| possible | possible | possible<sup>[1]</sup> |
 
 ---
 
