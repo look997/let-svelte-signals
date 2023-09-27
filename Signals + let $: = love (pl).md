@@ -68,7 +68,18 @@ Każda inna funkcja działa jak zwykła funkcja js/ts. Reaktywność dotyczy tyl
 
 Pod wpisem rozwinęła się mała dyskusja, w której rozwiały się wszelkie wątpliwości:
 
-1. "Nie lubię komentarzy jako składni" - można użyć np. `export function $counter ()`, do oznaczania takich funkcji. To kwestia umowna.
+1. "Nie lubię komentarzy jako składni" - można użyć np. `export function $counter ()`, do oznaczania takich funkcji. To kwestia umowna.  
+  Inną opcję może być owinięcie funkcji:
+  
+  ```svelte
+  export const counter = $svelte(function () {
+    let count = 0;
+    let double;
+    $:double = count*2;
+    // ...
+  });
+  ```
+  
 2. "Runy można użyć na poziomie top level modułu" - jeśli to naprawdę przydatne, trzeba dać możliwość oznaczenia top level modułu jako reaktywnego. Oczywiście funkcje w module pozostają zwykłymi funkcjami, dopóki również jej nie oznaczysz jako reaktywnej - jest to na wzór oznaczania funkcji jako `async` czy też generatorów. Tak samo można zagnieżdżać funkcje reaktywne. Można robić z funkcjami reaktywnymi dokładnie to samo, co z runami!
 3. "Brak zmiennych niereaktywnych spowoduje niezamierzone zachowanie efektów i pochodnych. Trudno śledzić, co się dzieje i dlaczego." - Nie. Jeśli nie oznaczysz tej funkcji jako reaktywnej, to jest to dokładnie zwykła funkcja. Nic złego nie może się stać.
 
