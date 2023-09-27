@@ -11,8 +11,8 @@ However, the presentation of Svelte 5 caused mixed feelings.
 1. did you happen inside Svelte file to use a `let` that would not be ultimately reactive?
 2. did you happen to use something reactive that would not be `let`?
 
-ad 1. Using `let element;` and `bind:this={element}` (and other `bind`). Except that this is somewhat reactive.
-ad 2. Using the `const ob = {}` property, which is reactive in Svelte 3/4:
+cf. 1. Using `let element;` and `bind:this={element}` (and other `bind`). Except that this is somewhat reactive.  
+cf. 2. Using the `const ob = {}` property, which is reactive in Svelte 3/4:
 
 ```svelte
 <script>

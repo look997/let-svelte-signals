@@ -11,7 +11,7 @@ Jednak prezentacja Svelte 5 spowodowała mieszane uczucia.
 1. Czy zdarzyło ci się wewnątrz Svelte file użyć `let`, które nie byłoby ostatecznie reaktywne?
 2. Czy zdarzyło ci się użyć czegoś reaktywnego, co nie byłoby `let`?
 
-ad 1. Użycie `let element;` i `bind:this={element}` (i inne `bind`). Z tym że to jest w pewnym stopniu reaktywne.
+ad 1. Użycie `let element;` i `bind:this={element}` (i inne `bind`). Z tym że to jest w pewnym stopniu reaktywne.  
 ad 2. Użycie właściwości `const ob = {}`, które jest reaktywne w Svelte 3/4:
 
 ```svelte
