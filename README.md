@@ -85,7 +85,7 @@ A small discussion developed under the post, in which all doubts were dispelled:
 
 One could elaborate on the doubts, and answer them, but I would like to get through the topic as it is first.
 
-This way we have achieved one of the goals of the run - the same code in the svelte file, and in the js/ts file.
+This way we have achieved one of the goals of the runes - the same code in the svelte file, and in the js/ts file.
 
 ## Notices
 
