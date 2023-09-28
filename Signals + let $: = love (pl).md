@@ -29,7 +29,7 @@ Uważam, że to jedyne przypadki.
 
 Pierwszy przypadek nadal będzie działał w Svelte 5.
 
-Drugi przypadek jest niemożliwy w Svelte 5.
+Drugi przypadek jest możliwy ale [zbędny](#reaktywny-const-object) w Svelte 5.
 
 Więc można uznać za prawdziwe stwierdzenie: "Nigdy nie użylibyśmy Run, w inny sposób niż używamy reaktywne let $:"
 

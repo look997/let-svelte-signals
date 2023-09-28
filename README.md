@@ -29,7 +29,7 @@ I believe these are the only cases.
 
 The first case will still work in Svelte 5.
 
-The second case is impossible in Svelte 5.
+The second case is possible but [redundant](#reactive-const-object) in Svelte 5.
 
 So the statement can be considered true: "We would never use Run, in any other way than we use reactive let $:".
 
